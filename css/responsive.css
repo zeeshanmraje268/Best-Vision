@@ -1,0 +1,166 @@
+
+/* Responsiveness for 1200px  */
+@media(max-width:1200px){
+   
+    /* Parallex Section */
+    .parallex:not(.parallex-main){
+        background-size: 50%;
+    }
+
+    .main-wrapper .black-card{
+        width: 100%;
+    }
+    /* End of Parallex Section */
+
+    /* Process Section */
+
+    .process-wrapper .process-content{
+        width: 100%;
+    }
+
+    /* End of Process Section */
+
+    /* contact Page */
+    .form-section{
+        padding: 4rem 1rem;
+    }
+
+    .contact{
+        padding: 2rem;
+    }
+
+    .contact .get-in-touch .card{
+        padding:2rem 1rem;
+    }
+
+    /* End of Contact Page */
+
+
+}
+
+/* End of Responsiveness for 1200px */
+
+
+
+/*  Responsiveness for 991px */
+@media(max-width:991px){
+    .header .navbar-collapse{
+        padding: 2rem;
+    }
+
+    .header .navbar-nav .nav-link{
+        padding: 0.6rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-wrapper{
+        margin-top: 4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
+
+    
+    .main-wrapper .black-card{
+       left: -226px;
+    }
+    .main-wrapper .black-card.right{
+        right: -226px;
+    }
+    
+    .parallex-main{
+        background-size: cover;
+    }
+
+     /* contact Page */
+   
+    .contact .get-in-touch .card{
+        min-height: 35rem;
+    }
+
+    /* End of Contact Page */
+
+}
+
+
+/* Responsiveness for 991px */
+
+
+/* Responsiveness for 767px */
+
+@media(max-width:767px){
+    
+    html{
+        font-size: 7px;
+    }
+
+    .main-wrapper .black-card{
+        left: 5%;
+        width: 90%;
+     }
+     .main-wrapper .black-card.right{
+         right: 5%;
+         width: 90%;
+     }
+     
+
+
+    .parallex:not(.parallex-main){
+        background-size: cover;
+    }
+
+    .parallax-1{
+        background-size: cover;
+    }
+
+    .link-widget a img{
+        width: 30px;
+        height: 30px;
+    }
+   
+}
+/* Responsiveness for 767px */
+
+
+
+
+
+
+
+/* Responsiveness for 450px */
+@media(max-width:450px){
+    html{
+        font-size: 6.25px;
+    }
+
+    .parallex.img2,
+    .parallex.img3,
+    .parallex.img4,
+    .parallex.img5{
+        height: 408px;
+    }
+
+    .main-wrapper{
+        margin-top: 35vh;
+    }
+
+    /* contact Page */
+    .form-section{
+        padding: 4rem 1rem;
+    }
+
+    .contact{
+        padding: 2rem;
+    }
+
+    .contact .get-in-touch .card{
+        padding:1rem 1rem;
+    }
+
+    /* End of Contact Page */
+}
+
+
+
+/* Responsiveness for 450px */
+
+
